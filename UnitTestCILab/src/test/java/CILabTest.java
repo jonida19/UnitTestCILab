@@ -52,4 +52,9 @@ public class CILabTest {
         myString.setString(" Hello");
         assertEquals(true, myString.detectCapitalUse());
     }
+
+    @Test void detectCapitalUseTest6() {
+        myString.setString("Welcome");
+        assertEquals(true, myString.detectCapitalUse());
+    }
 }
